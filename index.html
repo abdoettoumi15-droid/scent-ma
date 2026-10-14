@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fbfaf7">
+<meta name="description" content="SCENT.MA — parfums pour hommes au Maroc. Découvrez notre sélection et commandez sur WhatsApp."><title>SCENT.MA — Parfums pour hommes</title>
+<style>
+:root{--bg:#fbfaf7;--panel:#ffffff;--gold:#9b7844;--cream:#25231f;--muted:#716c63}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1100px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid #25231f18}
+.logo{font-size:22px;font-weight:800;letter-spacing:2px}.logo span{color:var(--gold)}
+nav .links{display:flex;gap:22px;color:var(--muted);font-size:14px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center;padding:64px 0 72px}
+.eyebrow{color:var(--gold);letter-spacing:3px;text-transform:uppercase;font-size:12px;font-weight:700}
+h1{font-size:clamp(40px,6vw,70px);line-height:1.02;margin:17px 0}
+h1 em{font-style:normal;color:var(--gold)}
+.lead{color:var(--muted);line-height:1.8;max-width:490px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:14px 20px;border-radius:7px;font-weight:700;font-size:14px}
+.primary{background:var(--gold);color:#17130c}.secondary{border:1px solid #25231f35}
+.hero-art{min-height:340px;border-radius:18px;background:radial-gradient(circle at 50% 35%,#f3e7cf 0,#f8f4ec 38%,#e8e0d3 100%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border:1px solid #25231f14}
+.bottle{width:145px;height:215px;border-radius:24px 24px 30px 30px;background:linear-gradient(100deg,#8a682d,#d7b66f 25%,#6e4f23 60%,#c39d53);box-shadow:0 25px 50px #51432a30;position:relative;transform:rotate(-5deg)}
+.bottle:before{content:"";position:absolute;width:66px;height:43px;background:#25231f;border:2px solid #b99551;top:-41px;left:39px;border-radius:5px 5px 0 0}
+.bottle:after{content:"SCENT\\A NO. 01";white-space:pre;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.8;letter-spacing:2px;font-size:12px;color:#2b2112;position:absolute;left:15px;right:15px;top:76px;height:65px;border:1px solid #3c2c16;background:#d8bc7d}
+.glow{position:absolute;width:260px;height:260px;border:1px solid #d9b77735;border-radius:50%}
+section{padding:52px 0}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:24px}
+h2{font-size:32px;margin:8px 0}.sub{color:var(--muted);line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.card{background:var(--panel);border:1px solid #25231f12;border-radius:13px;overflow:hidden}
+.product-art{height:180px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#f0e3ca,#f8f5ef 70%)}
+.mini-bottle{height:100px;width:62px;border-radius:9px 9px 13px 13px;background:linear-gradient(90deg,#393c35,#8d967c,#33372f);position:relative;box-shadow:0 12px 25px #51432a24}
+.mini-bottle:before{content:"";position:absolute;top:-18px;left:19px;width:24px;height:20px;background:#b5a17b;border-radius:3px 3px 0 0}
+.mini-bottle:after{content:"SCENT";position:absolute;top:39px;left:0;right:0;text-align:center;font-size:8px;letter-spacing:1px;color:#eee5d4}
+.card-body{padding:17px}.card h3{margin:0 0 8px;font-size:17px}.card p{color:var(--muted);font-size:13px;line-height:1.6;min-height:40px}.price-row{display:flex;align-items:center;justify-content:space-between;margin-top:15px}.price{font-weight:800;color:var(--gold);font-size:20px}
+.small-btn{background:#f5efe4;border:1px solid #9b784466;padding:10px 12px;border-radius:6px;font-size:12px;font-weight:700}
+.info{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.info article{padding:20px;border:1px solid #25231f15;border-radius:10px;background:#ffffff}.info b{display:block;color:var(--gold);margin-bottom:9px}.info p{margin:0;color:var(--muted);font-size:14px;line-height:1.7}
+.cta{background:linear-gradient(120deg,#f4ecdf,#ffffff);border:1px solid #9b784435;border-radius:16px;padding:32px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+footer{margin-top:45px;padding:25px 0;border-top:1px solid #25231f18;color:var(--muted);font-size:12px;line-height:1.7}
+.note{color:#8b8377;font-size:12px;margin-top:10px}
+@media(max-width:720px){nav .links{gap:12px;font-size:12px}.hero{grid-template-columns:1fr;padding:42px 0}.hero-art{min-height:270px}.grid{grid-template-columns:1fr}.product-art{height:150px}.info{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.cta{align-items:start;flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="logo" href="#">SCENT<span>.MA</span></a>
+  <div class="links"><a href="#parfums">Parfums</a><a href="#avantages">Pourquoi nous</a><a href="#contact">Commander</a></div>
+</nav>
+<main>
+<section class="hero">
+  <div>
+    <div class="eyebrow">Parfums pour hommes</div>
+    <h1>Une présence.<br><em>Une signature.</em></h1>
+    <p class="lead">Découvre des fragrances masculines au style élégant, pour tous les jours et les grandes occasions. Un petit format pour commencer, une grande impression pour longtemps.</p>
+    <div class="actions"><a class="btn primary" href="#parfums">Découvrir les parfums</a><a class="btn secondary" href="#contact">Commander</a></div>
+    <p class="note">Petites quantités au lancement · Disponibilité à confirmer</p>
+  </div>
+  <div class="hero-art" aria-label="Illustration décorative d'un flacon de parfum"><div class="glow"></div><div class="bottle"></div></div>
+</section>
+<section id="parfums">
+  <div class="section-head"><div><div class="eyebrow">La sélection</div><h2>Nos parfums</h2></div><p class="sub">Choisis ton style et contacte-nous pour vérifier la disponibilité.</p></div>
+  <div class="grid">
+    <article class="card"><div class="product-art"><div class="mini-bottle"></div></div><div class="card-body"><h3>Fresh & Clean</h3><p>Une senteur fraîche et légère, idéale au quotidien.</p><div class="price-row"><span class="price">12 DH*</span><a class="small-btn order" data-product="Fresh & Clean" href="#contact">Choisir</a></div></div></article>
+    <article class="card"><div class="product-art" style="background:radial-gradient(circle,#ead9c6,#f8f4ef 70%)"><div class="mini-bottle" style="background:linear-gradient(90deg,#3a2017,#9a6541,#44251a)"></div></div><div class="card-body"><h3>Dark & Intense</h3><p>Un caractère chaud et élégant pour le soir.</p><div class="price-row"><span class="price">12 DH*</span><a class="small-btn order" data-product="Dark & Intense" href="#contact">Choisir</a></div></div></article>
+    <article class="card"><div class="product-art" style="background:radial-gradient(circle,#e2e8dc,#f8f7f1 70%)"><div class="mini-bottle" style="background:linear-gradient(90deg,#2c352c,#8e9b78,#333b30)"></div></div><div class="card-body"><h3>Classic Wood</h3><p>Une note boisée, sobre et sophistiquée.</p><div class="price-row"><span class="price">12 DH*</span><a class="small-btn order" data-product="Classic Wood" href="#contact">Choisir</a></div></div></article>
+  </div>
+  <p class="note">Les noms, descriptions et prix sont provisoires : confirme les produits et les prix réels avant de vendre.</p>
+</section>
+<section id="avantages">
+  <div class="eyebrow">Simple & direct</div><h2>Pourquoi commander chez nous ?</h2>
+  <div class="info">
+    <article><b>01 · Petit budget</b><p>Des formats accessibles pour tester une fragrance sans acheter un grand flacon.</p></article>
+    <article><b>02 · Contact facile</b><p>Écris-nous sur WhatsApp ou Instagram pour les parfums disponibles et les détails.</p></article>
+    <article><b>03 · Avec transparence</b><p>Le volume, le prix et le type de parfum sont confirmés avant chaque commande.</p></article>
+  </div>
+</section>
+<section id="contact">
+  <div class="cta"><div><div class="eyebrow">Prêt à choisir ?</div><h2>Ta prochaine fragrance t’attend.</h2><p class="sub">Commande facilement via WhatsApp ou retrouve-nous sur Instagram.</p></div><div class="actions"><a class="btn primary" id="wa" href="https://wa.me/212773828064" target="_blank" rel="noopener">Commander sur WhatsApp</a><a class="btn secondary" id="ig" href="https://www.instagram.com/sivvvvo.__.v11/" target="_blank" rel="noopener">Instagram</a></div></div>
+  <p class="note">WhatsApp : +212 773 828 064 · Instagram : @sivvvvo.__.v11.</p>
+</section>
+</main>
+<footer>© <span id="year">2026</span> SCENT.MA · Parfums pour hommes<br>Parfums pour hommes · Maroc.</footer>
+</div>
+<script>
+document.querySelectorAll('.order').forEach(function(link){
+  link.addEventListener('click',function(){
+    var product=this.getAttribute('data-product');
+    var wa=document.getElementById('wa');
+    wa.href='https://wa.me/212773828064?text='+encodeURIComponent('Salam, je suis intéressé par : '+product+'. Quel est le prix et la disponibilité ?');
+  });
+});
+</script>
+</body>
+</html>
